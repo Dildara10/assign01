@@ -1,0 +1,47 @@
+// Arrithmetic Operators
+console.log("Arithmetic Operators:");
+var number1 = 45;
+var number2 = 50;
+var number3 = 10;
+var numberAdd = number1 + number2 + number3;
+var numberSubtract = number2 - number1;
+console.log(numberAdd);
+console.log(numberSubtract);
+var numberMultiply = numberAdd * number3;
+console.log(numberMultiply);
+var numberDivide = numberMultiply / number1;
+console.log(numberDivide);
+var numberModulus = number1 % 11;
+console.log(numberModulus);
+// Comparision Operators:
+console.log("Comparision Operators:");
+var comp1 = numberSubtract == 100;
+console.log(comp1);
+var comp2 = numberSubtract != 100;
+console.log(comp2);
+var comp3 = numberSubtract > 100;
+console.log(comp3);
+var comp4 = numberSubtract < 100;
+console.log(comp4);
+var comp5 = numberSubtract <= 100;
+console.log(comp5);
+var comp6 = numberSubtract >= 100;
+console.log(comp6);
+// Concatenation:
+console.log("Concatenation:");
+var name1 = "Dildara";
+var name2 = "Khan";
+var fullName = name1 + " " + name2;
+console.log(fullName);
+var num1 = 10;
+var idName = name1 + num1;
+console.log(idName);
+var num2 = "56";
+var idNumber = num1 + num2;
+console.log(idNumber);
+var d = 60;
+d += 5;
+console.log(d);
+var e = 70;
+e -= 10;
+console.log(e);
